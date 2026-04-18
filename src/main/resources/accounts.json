@@ -1,0 +1,163 @@
+[
+  {
+    "accountId":   "20-15-88/43917265",
+    "accountName": "Marcus T. Oyelaran",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2018-03-15"
+  },
+  {
+    "accountId":   "20-15-88/61082934",
+    "accountName": "Oyelaran Family Savings",
+    "accountType": "SAVINGS",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2019-07-22"
+  },
+  {
+    "accountId":   "30-91-44/87654321",
+    "accountName": "Meridian Ventures Ltd",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2015-11-08"
+  },
+  {
+    "accountId":   "30-91-44/12309876",
+    "accountName": "Diane K. Ashworth",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2020-07-22"
+  },
+  {
+    "accountId":   "40-47-84/55501234",
+    "accountName": "Northbridge Advisory Partners Ltd",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2017-04-14"
+  },
+  {
+    "accountId":   "40-47-84/99887766",
+    "accountName": "Patrick J. Nkemdirim",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2021-01-09"
+  },
+  {
+    "accountId":   "60-83-71/34561234",
+    "accountName": "Elara Professional Services Ltd",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2016-09-30"
+  },
+  {
+    "accountId":   "60-83-71/78900001",
+    "accountName": "Sandra L. Whitmore",
+    "accountType": "PERSONAL",
+    "status":      "SUSPENDED",
+    "currency":    "GBP",
+    "openedDate":  "2017-06-01",
+    "_note": "SUSPENDED — use this account to test the 422 suspended account response"
+  },
+  {
+    "accountId":   "09-01-28/11223344",
+    "accountName": "Oluwaseun B. Adeyemi",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2019-11-25"
+  },
+  {
+    "accountId":   "09-01-28/55667788",
+    "accountName": "Adeyemi Property Holdings Ltd",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2022-03-01"
+  },
+  {
+    "accountId":   "77-22-55/24681357",
+    "accountName": "Claire M. Buchanan",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2021-08-17"
+  },
+  {
+    "accountId":   "77-22-55/13579246",
+    "accountName": "Buchanan & Sons Trading Ltd",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "EUR",
+    "openedDate":  "2023-02-14"
+  },
+  {
+    "accountId":   "11-44-77/66778899",
+    "accountName": "Fatima N. Al-Hassan",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2022-05-12"
+  },
+  {
+    "accountId":   "11-44-77/33445566",
+    "accountName": "Al-Hassan International Consultancy",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "USD",
+    "openedDate":  "2020-10-28"
+  },
+  {
+    "accountId":   "55-66-33/10293847",
+    "accountName": "Yusuf K. Bergmann",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2020-03-08"
+  },
+  {
+    "accountId":   "55-66-33/98765432",
+    "accountName": "Bergmann Engineering GmbH UK",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "EUR",
+    "openedDate":  "2018-07-19"
+  },
+  {
+    "accountId":   "22-33-44/47382910",
+    "accountName": "Priya R. Sharma",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2023-01-19"
+  },
+  {
+    "accountId":   "22-33-44/82736450",
+    "accountName": "Sharma Tech Ventures Ltd",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2023-06-05"
+  },
+  {
+    "accountId":   "88-99-11/63819274",
+    "accountName": "Robert M. Kowalski",
+    "accountType": "PERSONAL",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2018-08-30"
+  },
+  {
+    "accountId":   "88-99-11/91827364",
+    "accountName": "Kowalski Logistics Ltd",
+    "accountType": "BUSINESS",
+    "status":      "ACTIVE",
+    "currency":    "GBP",
+    "openedDate":  "2021-04-12"
+  }
+]

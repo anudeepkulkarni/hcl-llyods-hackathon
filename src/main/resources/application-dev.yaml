@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:processor-db
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: payment-processor-group
+      auto-offset-reset: earliest        # SAFEST on restart
+      max-poll-records: 100               # avoids long processing
+      enable-auto-commit: false
+
+    listener:
+      concurrency: 6                     # max useful = partitions
+      ack-mode: batch                    # commit after batch persistence
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
