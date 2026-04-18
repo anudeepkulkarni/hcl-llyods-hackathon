@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:ingestor-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ""
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      acks: all # ensures all ISR replicas acknowledge → strongest durability
+      linger-ms: 5 # small batching delay balances latency vs throughput
+      compression-type: snappy # reduces network I/O with minimal CPU cost
+      enable-idempotence: true # avoids duplicate events on producer retries
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
